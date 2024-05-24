@@ -4,4 +4,30 @@
   box-sizing: border-box;
 }
 
+/********** MOBILE FIRST **********/
+/*** GENERAL ***/
+/*** VARIABLES ***/
+/*** HEADER ***/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  width: 197px;
+  padding: 20px;
+}
+.header__location {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #EAEAEA;
+  width: 100%;
+  padding: 15px;
+}
+.header__location--text {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

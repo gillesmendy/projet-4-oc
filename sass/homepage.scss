@@ -1,1 +1,42 @@
+/********** MOBILE FIRST **********/
 
+
+/*** GENERAL ***/
+
+
+
+/*** VARIABLES ***/
+$primary-color: #9356DC;
+$second-color: #FF79DA;
+$third-color: #99E2D0;
+
+$primary-background-color: #F6F6F6;
+$second-background-color: #EAEAEA;
+$thrid-background-color: #353535;
+
+
+/*** HEADER ***/
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__logo {
+        width: 197px;
+        padding: 20px;
+    }
+
+    &__location {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: $second-background-color;
+        width: 100%;
+        padding: 15px;
+    }
+
+    &__location--text {
+        font-size: 1.2rem;
+    }
+}
