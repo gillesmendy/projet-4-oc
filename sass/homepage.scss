@@ -3,7 +3,11 @@
 
 /*** GENERAL ***/
 
-
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /*** VARIABLES ***/
 $primary-color: #9356DC;
@@ -132,3 +136,34 @@ $third-background-color: #353535;
     }
 }
 
+
+/*** RESTAURANTS ***/
+
+
+
+/*** FOOTER ***/
+
+.footer {
+    background-color: $third-background-color;
+    height: 300px;
+
+    &__logo {
+        width: 197px;
+        padding: 20px;
+
+    }
+
+    &__content {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+
+    }
+
+    &__content__link {
+        display: flex;
+        gap: 20px;
+    }
+}
