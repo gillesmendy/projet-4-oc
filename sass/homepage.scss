@@ -1,13 +1,7 @@
 /********** MOBILE FIRST **********/
 
-
 /*** GENERAL ***/
 
-a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
 
 /*** VARIABLES ***/
 $primary-color: #9356DC;
@@ -38,14 +32,13 @@ $third-background-color: #353535;
 }
 
 
-
 /*** HEADER ***/
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     
     &__logo {
         width: 197px;
@@ -59,12 +52,14 @@ $third-background-color: #353535;
         background-color: $second-background-color;
         width: 100%;
         padding: 15px;
-    }
-
-    &__location--text {
-        font-size: 1.2rem;
-    }
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+        &-text {
+            font-size: 1.2rem;
+        }
+    }    
 }
+
 
 /*** INTRO ***/
 .intro {
@@ -133,11 +128,14 @@ $third-background-color: #353535;
         color: white;
         display: flex;
         justify-content: center;
+        left: -10px;
+        position: relative;
     }
 }
 
 
 /*** RESTAURANTS ***/
+
 
 
 
