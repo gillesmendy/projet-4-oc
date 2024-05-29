@@ -143,12 +143,15 @@ $third-background-color: #353535;
 }
 
 .restaurants h2 {
-    padding: 30px;
+    padding: 50px 20px 10px 30px;
 }
 
 .cards a {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .card {
@@ -168,6 +171,8 @@ $third-background-color: #353535;
 
 .card__top img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 .card__top span {
@@ -192,14 +197,13 @@ $third-background-color: #353535;
 }
 
 .card__bottom h3 {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
 }
 
 .card__bottom p {
     font-size: 1.063rem;
     font-weight: 300;
 }
-
 
 
 /*** FOOTER ***/
