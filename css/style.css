@@ -113,6 +113,68 @@ a {
 }
 
 /*** RESTAURANTS ***/
+.restaurants {
+  background-color: #F6F6F6;
+}
+
+.restaurants h2 {
+  padding: 30px;
+}
+
+.cards a {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card__top {
+  position: relative;
+}
+
+.card__top img {
+  width: 100%;
+}
+
+.card__top span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #99E2D0;
+  color: #008766;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card__bottom div {
+  padding: 5px 0;
+}
+
+.card__bottom h3 {
+  font-size: 1.125rem;
+}
+
+.card__bottom p {
+  font-size: 1.063rem;
+  font-weight: 300;
+}
+
 /*** FOOTER ***/
 .footer {
   background-color: #353535;
