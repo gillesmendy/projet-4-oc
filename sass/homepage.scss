@@ -140,6 +140,7 @@ $third-background-color: #353535;
 
 .restaurants {
     background-color: $primary-background-color;
+    padding-bottom: 50px;
 }
 
 .restaurants h2 {
@@ -211,24 +212,28 @@ $third-background-color: #353535;
 .footer {
     background-color: $third-background-color;
     height: 300px;
+}
 
-    &__logo {
-        width: 197px;
-        padding: 20px;
+.footer__title {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    font-family: Shrikhand;
+    padding: 20px;
+}
 
-    }
-
-    &__content {
+.footer__content {
         color: white;
         display: flex;
         flex-direction: column;
         padding: 20px;
         gap: 20px;
+        font-size: 1rem;
+        font-weight: 500;
 
     }
 
-    &__content__link {
+.footer__content-link {
         display: flex;
         gap: 20px;
     }
-}

@@ -115,6 +115,7 @@ a {
 /*** RESTAURANTS ***/
 .restaurants {
   background-color: #F6F6F6;
+  padding-bottom: 50px;
 }
 
 .restaurants h2 {
@@ -185,18 +186,26 @@ a {
   background-color: #353535;
   height: 300px;
 }
-.footer__logo {
-  width: 197px;
+
+.footer__title {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  font-family: Shrikhand;
   padding: 20px;
 }
+
 .footer__content {
   color: white;
   display: flex;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
+  font-size: 1rem;
+  font-weight: 500;
 }
-.footer__content__link {
+
+.footer__content-link {
   display: flex;
   gap: 20px;
 }
