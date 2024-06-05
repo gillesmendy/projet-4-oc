@@ -199,6 +199,7 @@ $third-background-color: #353535;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 }
 
 .card__bottom div {
@@ -213,6 +214,12 @@ $third-background-color: #353535;
     font-size: 1.063rem;
     font-weight: 300;
 }
+
+.card__heart {
+    font-size: 1.7rem;
+    color: #9356DC;
+}
+
 
 
 /*** FOOTER ***/
@@ -244,3 +251,41 @@ $third-background-color: #353535;
         display: flex;
         gap: 20px;
     }
+
+
+
+/*** DESKTOP VIEW ***/
+
+@media (min-width: 1024px) {
+
+    .steps {
+        padding: 0 60px;
+        height: 230px;
+    }
+
+    .steps__content {
+        flex-direction: row;
+    }
+
+    .restaurants {
+        padding: 10px 50px 30px 35px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        height: 120px;
+    }
+
+    .footer__content {
+        flex-direction: row;
+    }
+
+}
+
