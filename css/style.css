@@ -219,7 +219,6 @@ a {
   background-color: #353535;
   height: 300px;
 }
-
 .footer__title {
   font-size: 1.4rem;
   color: white;
@@ -227,7 +226,6 @@ a {
   font-family: Shrikhand;
   padding: 20px;
 }
-
 .footer__content {
   color: white;
   display: flex;
@@ -237,7 +235,6 @@ a {
   font-size: 1rem;
   font-weight: 500;
 }
-
 .footer__content-link {
   display: flex;
   gap: 20px;

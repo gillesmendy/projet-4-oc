@@ -94,7 +94,6 @@ $third-background-color: #353535;
 
 
 /*** STEPS ***/
-
 .steps {
     height: 400px;
     display: flex;
@@ -256,21 +255,19 @@ $third-background-color: #353535;
 
 
 /*** FOOTER ***/
-
 .footer {
     background-color: $third-background-color;
     height: 300px;
-}
 
-.footer__title {
-    font-size: 1.4rem;
-    color: white;
-    font-weight: bold;
-    font-family: Shrikhand;
-    padding: 20px;
-}
+    &__title {
+        font-size: 1.4rem;
+        color: white;
+        font-weight: bold;
+        font-family: Shrikhand;
+        padding: 20px;
+    }
 
-.footer__content {
+    &__content {
         color: white;
         display: flex;
         flex-direction: column;
@@ -278,12 +275,13 @@ $third-background-color: #353535;
         gap: 20px;
         font-size: 1rem;
         font-weight: 500;
-    }
 
-.footer__content-link {
-        display: flex;
-        gap: 20px;
+        &-link {
+            display: flex;
+            gap: 20px;
+        }
     }
+}
 
 
 
