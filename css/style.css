@@ -252,7 +252,7 @@ a {
   .restaurants {
     padding: 10px 50px 30px 35px;
   }
-  .cards {
+  .restaurants .cards {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;

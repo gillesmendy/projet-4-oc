@@ -284,28 +284,26 @@ $third-background-color: #353535;
 }
 
 
-
 /*** DESKTOP VIEW ***/
-
 @media (min-width: 1024px) {
 
     .steps {
         padding: 0 60px;
         height: 230px;
-    }
 
-    .steps__content {
-        flex-direction: row;
+        &__content {
+            flex-direction: row;
+        }
     }
 
     .restaurants {
         padding: 10px 50px 30px 35px;
-    }
 
-    .cards {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 20px;
+        .cards {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 20px;
+        }
     }
 
     .footer {
@@ -313,12 +311,11 @@ $third-background-color: #353535;
         flex-direction: row-reverse;
         align-items: flex-end;
         height: 120px;
-    }
 
-    .footer__content {
-        flex-direction: row;
+        &__content {
+            flex-direction: row;
+        }
     }
-
 }
 
 
