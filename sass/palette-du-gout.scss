@@ -1,1 +1,20 @@
 @import "style"; 
+
+/*** HEADER ***/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__back {
+        position: absolute;
+        left: 20px;
+        width: auto;
+    }
+
+    &__logo {
+        width: 197px;
+        padding: 20px;
+    }
+}

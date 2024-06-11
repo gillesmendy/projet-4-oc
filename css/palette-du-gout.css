@@ -10,4 +10,21 @@ a {
   color: inherit;
 }
 
+/*** HEADER ***/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header__back {
+  position: absolute;
+  left: 20px;
+  width: auto;
+}
+.header__logo {
+  width: 197px;
+  padding: 20px;
+}
+
 /*# sourceMappingURL=palette-du-gout.css.map */
