@@ -27,4 +27,10 @@ a {
   padding: 20px;
 }
 
+/*** INTRO ***/
+.restaurant__photo img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=palette-du-gout.css.map */
