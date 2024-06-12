@@ -46,5 +46,50 @@ a {
   position: absolute;
   top: 310px;
 }
+.menu .headline {
+  font-size: 1.7rem;
+  color: black;
+  font-weight: bold;
+  font-family: Shrikhand;
+  padding: 30px 0 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.favorite {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.favorite .fill {
+  color: #9356DC;
+  opacity: 0;
+  font-size: 1.6rem;
+  transition: 0.2s linear;
+  z-index: 2;
+  background: linear-gradient(0deg, #9356DC -11.44%, #FF79DA 123.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+}
+.favorite .empty {
+  color: #9356DC;
+  opacity: 1;
+  font-size: 1.6rem;
+  transition: 0.2s linear;
+  position: absolute;
+}
+.favorite:hover .fill {
+  opacity: 1;
+}
+.favorite:hover .empty {
+  opacity: 0;
+}
 
 /*# sourceMappingURL=palette-du-gout.css.map */

@@ -68,4 +68,55 @@ $third-background-color: #353535;
     border-radius: 40px 40px 0 0;
     position: absolute;
     top: 310px;
+
+    .headline {
+        font-size: 1.7rem;
+        color: black;
+        font-weight: bold;
+        font-family: Shrikhand;
+        padding: 30px 0 20px 20px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+
+
+.favorite {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    .fill {
+        color: $primary-color;
+        opacity: 0;
+        font-size: 1.6rem;
+        transition: .2s linear;
+        z-index: 2;
+        @include gradient();
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+    }
+
+    .empty {
+        color: $primary-color;
+        opacity: 1;
+        font-size: 1.6rem;
+        transition: .2s linear;
+        position: absolute;
+    }
+
+    &:hover .fill {
+        opacity: 1;
+    }
+
+    &:hover .empty {
+        opacity: 0;
+    }
 }
