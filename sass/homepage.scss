@@ -68,8 +68,10 @@ $third-background-color: #353535;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
     background-color: $primary-background-color;
+    text-align: justify;
+    padding: 45px 25px;
+    gap: 15px;
 
     &__title {
         padding: 15px;
