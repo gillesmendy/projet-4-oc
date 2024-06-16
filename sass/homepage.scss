@@ -257,7 +257,6 @@ $third-background-color: #353535;
 /*** FOOTER ***/
 .footer {
     background-color: $third-background-color;
-    height: 300px;
 
     &__title {
         font-size: 1.4rem;
@@ -271,10 +270,10 @@ $third-background-color: #353535;
         color: white;
         display: flex;
         flex-direction: column;
-        padding: 20px;
         gap: 20px;
         font-size: 1rem;
         font-weight: 500;
+        padding: 20px;
 
         &-link {
             display: flex;
