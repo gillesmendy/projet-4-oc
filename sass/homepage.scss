@@ -287,9 +287,8 @@ $third-background-color: #353535;
 @media (min-width: 1024px) {
 
     .steps {
-        padding: 0 60px;
-        height: 230px;
-
+        padding: 60px 70px;
+        
         &__content {
             flex-direction: row;
         }

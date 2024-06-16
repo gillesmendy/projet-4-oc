@@ -242,8 +242,7 @@ a {
 /*** DESKTOP VIEW ***/
 @media (min-width: 1024px) {
   .steps {
-    padding: 0 60px;
-    height: 230px;
+    padding: 60px 70px;
   }
   .steps__content {
     flex-direction: row;
