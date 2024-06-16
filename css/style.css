@@ -77,13 +77,12 @@ a {
 
 /*** STEPS ***/
 .steps {
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: auto;
   gap: 30px;
-  padding: 0 25px;
+  padding: 50px 30px;
 }
 .steps__content {
   display: flex;
