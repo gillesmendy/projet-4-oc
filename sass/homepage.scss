@@ -295,12 +295,11 @@ $third-background-color: #353535;
     }
 
     .restaurants {
-        padding: 10px 50px 30px 35px;
+        padding: 10px 50px 30px 50px;
 
         .cards {
             display: grid;
             grid-template-columns: 50% 50%;
-            gap: 20px;
         }
     }
 
