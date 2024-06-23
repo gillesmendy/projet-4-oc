@@ -382,6 +382,29 @@ a {
   position: relative;
   top: 10px;
 }
+.menu__card-content .validation {
+  width: 60px;
+  height: 75px;
+  background-color: #99E2D0;
+  position: relative;
+  left: 20px;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__card-content .validation .icon {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__card-content .validation .icon .fa-check {
+  color: #99E2D0;
+}
 .menu form {
   display: flex;
   justify-content: center;
