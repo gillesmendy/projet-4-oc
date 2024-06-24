@@ -143,6 +143,10 @@ $third-background-color: #353535;
             padding: 20px;
             box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.10);
             margin-bottom: 15px;
+            &:hover .validation {
+                display: flex;
+                transition: transform 3s ease;
+            }
     
             .subtitle {
                 font-weight: bold;
@@ -168,6 +172,7 @@ $third-background-color: #353535;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                display: none;
 
                 .icon {
                     width: 25px;
