@@ -366,7 +366,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
 }
@@ -374,9 +374,16 @@ a {
   display: flex;
   transition: transform 3s ease;
 }
-.menu__card-content .subtitle {
+.menu__card-content .text {
+  flex-wrap: nowrap;
+}
+.menu__card-content .text .subtitle {
   font-weight: bold;
   margin-bottom: 5px;
+}
+.menu__card-content .text .description {
+  font-size: 0.94rem;
+  font-weight: 300;
 }
 .menu__card-content .price {
   display: flex;
