@@ -392,6 +392,8 @@ a {
   align-items: flex-start;
   position: relative;
   top: 10px;
+  font-size: 0.93rem;
+  font-weight: 700;
 }
 .menu__card-content .validation {
   width: 60px;
