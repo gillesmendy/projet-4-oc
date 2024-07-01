@@ -504,6 +504,9 @@ a {
     margin: 50px 100px -100px 100px;
     width: 80%;
   }
+  .menu .price {
+    left: 120px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
