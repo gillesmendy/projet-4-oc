@@ -546,5 +546,14 @@ a {
     left: 150px;
   }
 }
+/*** CARD ANIMATION FOR DESKTOP ***/
+@keyframes cardMovement {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(900px);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

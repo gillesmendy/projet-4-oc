@@ -295,3 +295,16 @@ $third-background-color: #353535;
     }
 }
 
+
+/*** CARD ANIMATION FOR DESKTOP ***/
+    
+@keyframes cardMovement {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(900px);
+    }
+}
+
