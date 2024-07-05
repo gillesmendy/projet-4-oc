@@ -503,6 +503,36 @@ a {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
+/*** CARD ANIMATION FOR MOBILE ***/
+@keyframes cardMovement {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}
+.entrees {
+  animation-name: cardMovement;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 0;
+}
+
+.plats {
+  animation-name: cardMovement;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 1s;
+}
+
+.desserts {
+  animation-name: cardMovement;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-delay: 2s;
+}
+
 /*** DESKTOP VIEW ***/
 @media (min-width: 1024px) {
   .menu {
