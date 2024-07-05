@@ -420,6 +420,9 @@ a {
 .menu__card-content:hover .text {
   width: 60%;
 }
+.menu__card-content:hover .price {
+  left: 0;
+}
 .menu__card-content .informations {
   width: 80%;
   display: flex;
@@ -451,6 +454,7 @@ a {
   top: 10px;
   font-size: 0.93rem;
   font-weight: 700;
+  left: 60px;
 }
 .menu__card-content .validation {
   width: 60px;
@@ -505,8 +509,11 @@ a {
     margin: 50px 100px -100px 100px;
     width: 80%;
   }
-  .menu .price {
-    left: 120px;
+  .menu .menu__card-content:hover .price {
+    left: 100px;
+  }
+  .menu .menu__card-content .price {
+    left: 150px;
   }
 }
 

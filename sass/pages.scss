@@ -149,11 +149,14 @@ $third-background-color: #353535;
             &:hover .validation {
                 display: flex;
                 left: 20px;
-                
             }
 
             &:hover .text {
                 width: 60%;
+            }
+
+            &:hover .price {
+                left: 0;
             }
 
             .informations {
@@ -191,6 +194,7 @@ $third-background-color: #353535;
                 top: 10px;
                 font-size: 0.93rem;
                 font-weight: 700;
+                left: 60px;
             }
 
             .validation {
@@ -245,8 +249,14 @@ $third-background-color: #353535;
         margin: 50px 100px -100px 100px;
         width: 80%;
 
-        .price {
-            left: 120px;
+        .menu__card-content {
+            &:hover .price {
+                left: 100px;
+            }
+
+            .price {
+                left: 150px;
+            }
         }
     }
 }
