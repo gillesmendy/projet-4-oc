@@ -87,16 +87,17 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #F6F6F6;
-  text-align: justify;
-  padding: 45px 25px;
+  text-align: center;
+  padding: 45px 20px;
   gap: 15px;
 }
 .intro__title {
   padding: 15px;
 }
 .intro__text {
-  font-size: 1.2rem;
-  padding: 15px;
+  font-size: 1.12rem;
+  padding: 15px 0;
+  font-weight: 300;
 }
 .intro__button {
   height: 50px;
